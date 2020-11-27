@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#302C2C"
+        android:textColor="#FAF6F6"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <AutoCompleteTextView
+        android:id="@+id/auto"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="type here...."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:completionThreshold="3"
+        android:layout_marginTop="60dp"
+        android:ems="10">
+    </AutoCompleteTextView>
+</RelativeLayout>
